@@ -9,12 +9,14 @@ Vue.use(VueRouter)
 
 import start from './start.vue'
 import rodrigolosQuest from './rodrigolosQuest.vue'
+import AntarcticQuest from './AntarcticQuest.vue'
  
 const router = new VueRouter({
     routes: [
       { path: '/', component: start },
       { path: '/start', component: start },
-      { path: '/rodrigolosQuest', component: rodrigolosQuest }
+      { path: '/rodrigolosQuest', component: rodrigolosQuest },
+      { path: '/AntarcticQuest', component: AntarcticQuest }
     ]
 })
 
