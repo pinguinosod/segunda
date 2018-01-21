@@ -62,7 +62,7 @@
     <v-footer app>
       
       <v-flex xs12>
-        <div class="px-0 text-xs-center">&copy; 2018 PinguinoSod. Distributed under the MIT License.</div>
+        <div class="px-0 text-xs-center">&copy; 2018 David Cautin. Distributed under the MIT License.</div>
       </v-flex>
     </v-footer>
   </v-app>
