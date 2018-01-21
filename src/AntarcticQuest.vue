@@ -22,7 +22,7 @@
             </v-flex>
             
             <v-flex xs12>
-                <v-btn v-for="(choice, index) in choices" color="primary"  v-on:click="choose(choice)">{{ choicesText[index] }}</v-btn>
+                <v-btn v-for="(choice, index) in choices" :key="choice" color="primary"  v-on:click="choose(choice)">{{ choicesText[index] }}</v-btn>
             </v-flex>
             
         </v-layout>
