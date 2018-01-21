@@ -34,6 +34,17 @@
             </v-list-tile-content>
           </v-list-tile>
         </router-link>
+        
+        <router-link to="/cryptocurrencies">
+          <v-list-tile @click="">
+            <v-list-tile-action>
+              <v-icon>attach_money</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>Cryptocurrencies</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+        </router-link>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar color="deep-purple darken-3" dark app :clipped-left="$vuetify.breakpoint.mdAndUp" fixed>

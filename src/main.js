@@ -10,13 +10,15 @@ Vue.use(VueRouter)
 import start from './start.vue'
 import rodrigolosQuest from './rodrigolosQuest.vue'
 import AntarcticQuest from './AntarcticQuest.vue'
+import cryptocurrencies from './cryptocurrencies.vue'
  
 const router = new VueRouter({
     routes: [
       { path: '/', component: start },
       { path: '/start', component: start },
       { path: '/rodrigolosQuest', component: rodrigolosQuest },
-      { path: '/AntarcticQuest', component: AntarcticQuest }
+      { path: '/AntarcticQuest', component: AntarcticQuest },
+      { path: '/cryptocurrencies', component: cryptocurrencies }
     ]
 })
 
